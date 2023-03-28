@@ -24,7 +24,7 @@ If you don't wish to self host CockroachDB for development, we advise you use Co
 
 ### Self Hosting
 
-If you feel comfortable self hosting, for our use case, you we require that you additionally install [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/). Docker is used to help ensure that the services are setup consistantly setup accross all our contributors' machines. (If you want to use podman instead of docker, you can, but we will not provide assistance with it.)
+If you feel comfortable self hosting, for our use case, we require that you additionally install [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/). Docker is used to help ensure that the services are setup consistantly setup accross all our contributors' machines. (If you want to use podman instead of docker, you can, but we will not provide assistance with it.)
 
 To start the services locally, simply run `docker compose up -d`. Or shut them off with `docker compose down`. (Run these in the repo after you have cloned it.)
 
